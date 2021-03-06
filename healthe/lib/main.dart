@@ -2,8 +2,13 @@ import 'package:flutter/material.dart';
 import './FirstPage.dart' as first;
 import './SecondPage.dart' as second;
 import './ThirdPage.dart' as third;
+import 'package:firebase_core/firebase_core.dart';
 
-void main() => runApp(MyApp());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -23,62 +28,50 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 //After Login Page
 
-class MyTabs extends StatefulWidget{
+class MyTabs extends StatefulWidget {
   @override
   MyTabsState createState() => new MyTabsState();
 }
 
-class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin{
-  
+class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
   TabController controller;
 
   @override
-  void initState(){
+  void initState() {
     super.initState();
     controller = new TabController(vsync: this, length: 3);
   }
 
   @override
-  void dispose(){
+  void dispose() {
     controller.dispose();
     super.dispose();
   }
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: new AppBar(
-        title: new Text("Welcome Omar!"), 
-        backgroundColor: Colors.blue,
-        automaticallyImplyLeading: true), //false no show, true show
+        appBar: new AppBar(
+            title: new Text("Welcome Omar!"),
+            backgroundColor: Colors.blue,
+            automaticallyImplyLeading: true), //false no show, true show
 
-      bottomNavigationBar: new Material(
-        color: Colors.blue,
-        child: new TabBar(
-          controller: controller,
-          tabs: <Tab>[
-            new Tab(icon: new Icon(Icons.insert_chart)),
-            new Tab(icon: new Icon(Icons.post_add)),
-            new Tab(icon: new Icon(Icons.arrow_back))
-          ]
-        )
-      ),
-      body: new TabBarView(
-        controller: controller,
-        children: <Widget>[
+        bottomNavigationBar: new Material(
+            color: Colors.blue,
+            child: new TabBar(controller: controller, tabs: <Tab>[
+              new Tab(icon: new Icon(Icons.insert_chart)),
+              new Tab(icon: new Icon(Icons.post_add)),
+              new Tab(icon: new Icon(Icons.arrow_back))
+            ])),
+        body: new TabBarView(controller: controller, children: <Widget>[
           new first.First(),
           new second.Second(),
           new third.Third()
-        ]
-      )
-    );
+        ]));
   }
 }
-
-
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -138,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
         minWidth: MediaQuery.of(context).size.width,
         padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
         onPressed: () {
-          Navigator.pushNamed(context,"/page1");
+          Navigator.pushNamed(context, "/page1");
         },
         child: Text("Login",
             textAlign: TextAlign.center,
@@ -148,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
 
     return Scaffold(
-      body: SingleChildScrollView(
+        body: SingleChildScrollView(
       child: Center(
         child: Container(
           color: Colors.white,
@@ -181,7 +174,6 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ),
-        )
-    );
+    ));
   }
 }
