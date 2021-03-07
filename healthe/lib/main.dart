@@ -3,8 +3,6 @@ import './FirstPage.dart' as first;
 import './SecondPage.dart' as second;
 import './ThirdPage.dart' as third;
 import 'package:firebase_core/firebase_core.dart';
-import 'dart:math';
-import 'package:firebase_database/firebase_database.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

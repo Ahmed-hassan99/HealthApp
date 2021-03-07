@@ -74,6 +74,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_plugin_android_lifecycle",
+      "rootUri": "file:///Users/ahmedafifi/Desktop/Delta_Hacks_7/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_speed_dial",
+      "rootUri": "file:///Users/ahmedafifi/Desktop/Delta_Hacks_7/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_speed_dial-1.2.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/ahmedafifi/Desktop/Delta_Hacks_7/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -82,6 +94,30 @@
     {
       "name": "flutter_web_plugins",
       "rootUri": "file:///Users/ahmedafifi/Desktop/Delta_Hacks_7/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/ahmedafifi/Desktop/Delta_Hacks_7/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/ahmedafifi/Desktop/Delta_Hacks_7/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "image_picker",
+      "rootUri": "file:///Users/ahmedafifi/Desktop/Delta_Hacks_7/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.7.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "image_picker_platform_interface",
+      "rootUri": "file:///Users/ahmedafifi/Desktop/Delta_Hacks_7/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_platform_interface-2.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -106,6 +142,12 @@
     {
       "name": "path",
       "rootUri": "file:///Users/ahmedafifi/Desktop/Delta_Hacks_7/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "pedantic",
+      "rootUri": "file:///Users/ahmedafifi/Desktop/Delta_Hacks_7/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.11.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -176,7 +218,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-03-07T00:49:54.274728Z",
+  "generated": "2021-03-07T00:57:48.523343Z",
   "generator": "pub",
   "generatorVersion": "2.12.0"
 }
