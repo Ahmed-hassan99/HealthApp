@@ -10,15 +10,15 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		SSrl2ZAzu2Ir5lnjJtXGAryWVSw=
+		UdTZp0nE5GTYWYYMu0nhiZh2BpU=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
-		vKJkVIcw+LGHFnKJGwrQwCREv68=
+		+D1xbIOooc3ypce1+jh+mmLy1J0=
 		</data>
 		<key>flutter_assets/NOTICES</key>
 		<data>
-		KKFE0JSJaJKfUSovepN9piZ58+c=
+		Xmhg44bU83MHLkgAi+Karaq3Edk=
 		</data>
 		<key>flutter_assets/assets/healthe.png</key>
 		<data>
@@ -34,11 +34,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		2EVv1PoLg76rXX0Tgv4zcsRLzsM=
-		</data>
-		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
-		<data>
-		P7bb/oR3EhwqCIH1M6LyTuBIWYU=
+		ynLsQBYxYvX9Ww7JRfUl19WsQ3c=
 		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
@@ -51,33 +47,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SSrl2ZAzu2Ir5lnjJtXGAryWVSw=
+			UdTZp0nE5GTYWYYMu0nhiZh2BpU=
 			</data>
 			<key>hash2</key>
 			<data>
-			M6TOISW6dVhvZcJ/F2URxZO+40K7uqsobUmU4X0aVBE=
+			OjZNxlPaXw0c4OGTgiADSL7Sp0P+wwHHLAVp95iQre0=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vKJkVIcw+LGHFnKJGwrQwCREv68=
+			+D1xbIOooc3ypce1+jh+mmLy1J0=
 			</data>
 			<key>hash2</key>
 			<data>
-			zX4DZFvESy3Ue3y2JvUcTsv1Whl6t3JBYotHrBZfviE=
+			KLHrKz0uGtYLjIsPkQCxzL9JL3+pf1vrtR6pfnOSbn0=
 			</data>
 		</dict>
 		<key>flutter_assets/NOTICES</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KKFE0JSJaJKfUSovepN9piZ58+c=
+			Xmhg44bU83MHLkgAi+Karaq3Edk=
 			</data>
 			<key>hash2</key>
 			<data>
-			WF0dpHyuS/xNZeuYtU8dvlhOavTDjtYcZR9K7ijzYyQ=
+			hIsy3+DSFfSRg1eIkXNGVmf3HLLMgVyMVM7vba2II4c=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/healthe.png</key>
@@ -117,22 +113,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2EVv1PoLg76rXX0Tgv4zcsRLzsM=
+			ynLsQBYxYvX9Ww7JRfUl19WsQ3c=
 			</data>
 			<key>hash2</key>
 			<data>
-			YxtmQMLHdff4G7QF4cn7lDvqDcAeCZogqTTmLbpbiUs=
-			</data>
-		</dict>
-		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P7bb/oR3EhwqCIH1M6LyTuBIWYU=
-			</data>
-			<key>hash2</key>
-			<data>
-			x6NX+tjyECiQtyzbbjyY8U2zoZ7GDbJtE+T+k/dzgI0=
+			OP+NS3yYUulHEnvuI5w+oEeIzUrutMlu4QOUAwDX/88=
 			</data>
 		</dict>
 		<key>flutter_assets/vm_snapshot_data</key>

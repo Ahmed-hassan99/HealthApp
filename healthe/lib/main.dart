@@ -3,14 +3,16 @@ import './FirstPage.dart' as first;
 import './SecondPage.dart' as second;
 import './ThirdPage.dart' as third;
 import 'package:firebase_core/firebase_core.dart';
+import 'dart:math';
+import 'package:firebase_database/firebase_database.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  final Future<FirebaseApp> _fbApp = Firebase.initializeApp();
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -20,7 +22,20 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Login'),
+      home: FutureBuilder(
+          future: _fbApp,
+          builder: (context, snapshot) {
+            if (snapshot.hasError) {
+              print('You have an error! ${snapshot.error.toString()}');
+              return Text('Something went Wrong!');
+            } else if (snapshot.hasData) {
+              return MyHomePage(title: 'Flutter Login');
+            } else {
+              return Center(
+                child: CircularProgressIndicator(),
+              );
+            }
+          }),
       routes: {
         "/page1": (_) => new MyTabs(),
       },
